@@ -11,9 +11,9 @@ Data/*
 # Ignore virtual environment
 venv/
 
-# Ignore trained models
-Models/
-*.h5
+# Trained models - Uncomment to track Models folder and .h5 files
+# Models/
+# *.h5
 
 # Ignore python cache
 __pycache__/
