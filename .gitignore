@@ -5,8 +5,11 @@
 !Data/app.py
 !Data/train_model.py
 
-# Ignore csv files (dataset)  <-- comment करा जर csv push करायचा असेल
-# *.csv
+# Ignore all CSV files
+*.csv
+
+# But allow this specific CSV file to be pushed
+!Data/nail_diseases_dataset.csv
 
 # Ignore virtual environment
 venv/
