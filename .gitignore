@@ -1,12 +1,12 @@
 # Ignore everything inside Data folder
-Data/*
+# Data/*       <-- comment केले, dataset push करता येईल
 
 # But allow these two files
 !Data/app.py
 !Data/train_model.py
 
-# Ignore csv files (dataset)
-*.csv
+# Ignore csv files (dataset)  <-- comment करा जर csv push करायचा असेल
+# *.csv
 
 # Ignore virtual environment
 venv/
