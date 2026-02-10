@@ -1,13 +1,26 @@
-# Ignore datasets only
-Data/
+# Ignore everything inside Data folder
+Data/*
+
+# But allow these two files
+!Data/app.py
+!Data/train_model.py
+
+# Ignore csv files (dataset)
 *.csv
+
+# Ignore virtual environment
+venv/
+
+# Ignore trained models
+Models/
+*.h5
 
 # Ignore python cache
 __pycache__/
 *.pyc
 
-# Ignore uploads (optional, if you want)
+# Ignore uploads
 static/uploads/
 
-# Ignore pdf files (optional)
+# Ignore pdf files
 *.pdf
