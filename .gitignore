@@ -1,0 +1,19 @@
+# Ignore datasets
+Data/
+*.csv
+
+# Ignore virtual environment
+venv/
+
+# Ignore trained models
+Models/
+
+# Ignore python cache
+__pycache__/
+*.pyc
+
+# Ignore uploads
+static/uploads/
+
+# Ignore pdf files
+*.pdf
